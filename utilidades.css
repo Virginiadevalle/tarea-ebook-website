@@ -1,0 +1,114 @@
+
+
+
+:root {
+    --primary-color: #4A3AFF;
+  }
+
+  .p-color{
+    color: #6F6C90;
+  }
+
+  /*
+.btn: clase para los botones
+*/
+  .btn {
+    
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 56px;
+    color: white;
+    background-color:  var(--primary-color);
+    border: solid 1px  var(--primary-color);
+    font-weight: 700;
+  }
+
+  .btn.small {
+    padding: 16px 32px 19px 32px;
+  }
+
+ .btn.little{
+    padding: 10px 15px 10px 15px;
+  }
+
+  /* clase para los formularios */
+  .formulariostyle{
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 8px 25px rgba(13, 10, 44, 0.06);
+    border-radius: 60px;
+    font-size: 18px;
+    padding: 25px 265px 32px 29px ;
+  }
+
+  .formulariostyle.small{
+    padding: 10px 65px 18px 15px ;
+  }
+
+ 
+
+  /*
+  utlidades flex
+  */
+  .d-flex {
+    display: flex;
+  }
+  .d-flex-column{
+    flex-direction: column;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
+  
+  /* .w-70 {
+    width: 70%;
+  }
+  .w-30 {
+    width: 30%;
+  } */
+  
+  /*
+  utlidades margin
+  */
+  .m-auto {
+    margin: auto;
+  }
+  .mb {
+    margin-bottom: 10px;
+  }
+  .mr {
+    margin-right: 10px;
+  }
+  .ml {
+    margin-left: 10px;
+  }
+  .mt {
+    margin-top: 10px;
+  }
+  
+  /*
+  utlidades padding
+  */
+  .padding {
+    padding: 10px;
+  }
+  /*
+  utlidades texto
+  */
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }

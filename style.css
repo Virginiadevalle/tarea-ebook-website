@@ -1,0 +1,361 @@
+.body{
+    font-family: 'DM Sans', sans-serif;
+    
+}
+/* Header star */
+.logo{
+    font-size: 0;
+    margin: 20px;
+}
+
+/* header end */
+
+/* main star */
+.main-container{
+    background-image: url(./img/Ellipse\ superior.png);
+    background-repeat: no-repeat;
+}
+
+.main-subtitulo{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-top: 39px;
+    margin-bottom: 0;
+}
+
+.main-titulo{
+    color: #170F49;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-top: 11px;
+    margin-bottom: 0;
+
+}
+
+.main-descripcion{
+    color: #6F6C90;
+    padding: 10px;
+    margin-top: 11px;
+    margin-bottom: 70px;
+}
+
+.main-text{
+    margin-top: 24px;
+    margin-bottom: 200px;
+}
+
+.main-logo-img{
+    padding: 15px;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+/* main end */
+ 
+/* seccion promocion star */
+
+ .seccion-promocion-subtitulo::before{
+     content: '';
+     
+ }
+ .seccion-promocion-subtitulo{
+     color: var(--primary-color);
+     text-transform: uppercase;
+     font-size: 18px;
+     font-weight: 700;
+ }
+ .seccion-promocion-titulo{
+    color: #170F49;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 27px;
+    margin-bottom: 12px;
+
+ }
+ .seccion-promocion-beneficios{
+     padding: 20px;
+ }
+
+ .seccion-promocion-card-titulo::before{
+     content: '';
+ }
+
+ .seccion-promocion-card-titulo{
+     font-size: 18px;
+     font-weight: 700;
+     margin-bottom: 12px;
+     color: #170F49;
+ }
+
+ .seccion-promocion-card-descripcion{
+     margin: 0;
+ }
+
+ .seccion-promocion-formulario{
+     margin-top: 45px ;
+     margin-bottom: 122px;
+ }
+
+/* seccion promocion end */
+
+/* seccion redes sociales star */
+
+.seccion-redes-sociales-titulo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #170F49;
+
+}
+
+.seccion-redes-sociales-imagenes{
+    padding: 0;
+}
+.seccion-redes-sociales-redes{
+    list-style: none;
+    padding: 0;
+    padding: 20px;
+}
+
+
+/* seccion-redes-sciales end */
+
+/* seccion recomendaciones start */
+.seccion-recomendaciones-subtitulo{
+    color: var(--primary-color) ;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    margin-top: 190px;
+
+} 
+
+.seccion-recomendaciones-titulo{
+    color:#170F49 ;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 35px;
+}
+.seccion-recomendaciones-card-img{
+    margin-bottom: 24px;
+}
+
+.seccion-recomendaciones-card{
+    padding: 20px;
+}
+.seccion-recomendaciones-card-titulo{
+    font-size: 22px;
+    font-weight: 700;
+    color: #170F49;
+    margin: 9px;
+}
+
+.seccion-recomendaciones-card-descripcion{
+    margin:0;
+}
+
+.seccion-recomendaciones-button{
+    margin-top: 66px;
+    margin-bottom: 238px;
+}
+/* seccion recomendaciones end */
+
+/* seccion paquetes ebook start */
+.seccion-paquetes-ebook-subtitulo{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.seccion-paquetes-ebook-titulo{
+    font-size: 34px;
+    font-weight: 700;
+    color: #170F49;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.seccion-paquetes-ebook-info{
+    flex-wrap: wrap;
+}
+
+.seccion-paquetes-ebook-card{
+    flex-basis: calc(100% / 2);
+    padding: 20px;
+}
+
+
+.seccion-paquetes-ebook-button{
+    margin-top: 56px;
+    margin-bottom: 250px;
+}
+/* seccion paquetes ebook end */
+
+/* seccion comentarios start*/
+
+.seccion-comentarios-subtitulo{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-bottom: 14px;
+
+}
+.seccion-comentarios-titulo{
+    margin: 0;
+    font-size: 34px;
+    font-weight: 700;
+    color: #170F49;
+    margin-bottom: 32px;
+
+}
+
+.seccion-comentarios-card{
+    padding-bottom: 30px;
+    margin-bottom: 48px;
+}
+.seccion-comentarios-card-titulo{
+    margin-top: 30px;
+    color: #170F49;
+    font-size: 22px;
+    font-weight: 700;
+}
+.seccion-comentarios-card-opinion{
+    line-height: 2;
+    margin: 0;
+}
+
+.seccion-comentarios-card-nombre{
+    margin: 0;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #170F49;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.seccion-comentarios-card-profesion{
+    font-size: 18px;
+}
+
+.seccion-comentarios-card-imagens{
+    padding-right: 15px;
+}
+.seccion-comentarios-card-imagen{
+    border-radius: 150px;
+}
+
+.seccion-comentarios-button{
+    margin-bottom: 400px;
+}
+
+
+/* seccion comentarios end */
+/* seccion-autor start */
+
+.seccion-autor-info{
+    margin-bottom: 100px;
+}
+.seccion-autor-subtitulo{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 8px;
+}
+
+.seccion-autor-titulo{
+    color: #170F49;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 9px;
+}
+
+.seccion-autor-descripcion{
+    margin: 0;
+}
+.seccion-autor-redes-sociales {
+    padding: 0;
+    align-items: baseline;
+}
+
+.seccion-autor-redes-sociales-item{
+    list-style: none;
+    padding: 10px;
+}
+
+
+/* seccion autor end */
+
+/* seccion descarga start */
+ .seccion-descarga-container{
+     background-color: var(--primary-color);
+ }
+
+ .seccion-descarga-subtitulo::before{
+    content: '';
+ }
+ .seccion-descarga-subtitulo{
+     color: white;
+     text-transform: uppercase;
+     font-size: 18px;
+     font-weight: 700;
+
+ 
+ }
+.seccion-descarga-titulo{
+    color: white;
+    font-size:34px ;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 40px ;
+}
+
+
+.seccion-descarga-button{
+    padding-bottom: 50px;
+}
+/* seccion descarga end */
+
+/*  seccion-copyright star*/
+
+.seccion-copyright-container{
+    padding:65px 0px;
+
+}
+
+.seccion-copyright-derechos-autor{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+/* seccion-copyright end */
+
+
+/* seccion-footer start */
+.footer-derechos{
+    margin-top: 90px ;
+}
+
+.footer-subcribe{
+    color: #170F49;
+    font-weight: 700;
+    margin-top: 64px;
+}
+
+.footer-container{
+    margin-bottom: 58px;
+}
+
+/* seccion-footer end */
