@@ -1,0 +1,90 @@
+   @media (min-width:1024px) {
+    /* seccion-main start*/
+    .main-container{
+        padding: 0px 50px;
+    }
+
+    /* seccion-main end */
+
+
+    /* seccion-recomendaciones start */
+    .seccion-promocion-titulo{
+        font-size: 50px;
+    }
+    /* seccion-recomendaciones end */
+
+    /* seccion-paquetes-ebok start */
+    
+    /*seccion-paquetes-ebook end */
+
+
+    /* seccio-descarga star */
+    .seccion-descarga-container{
+        height: 700px;
+    }
+    /* seccion-descarga end */
+       /* seccion-cards start */
+    .seccion-cards-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+
+    } 
+    .seccion-cards-card{
+        padding: 40px; 
+        
+    }
+    /* seccion-cards end */
+    
+    
+    /* seccion-footer start */
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 58px;
+    }
+
+
+   
+
+    .footer-formulario{
+        position: relative;
+        
+    }
+    .footer-btn{
+        position: absolute;
+        top: 0;
+        left: 250px;
+    }
+    
+    .footer-subscribe{
+        margin-top: 0;
+    }
+
+    .footer-derechos{
+        margin-top: 0;
+    }
+
+    .footer{
+        padding: 0px 40px;
+    }
+    /* seccion-footer end */
+    
+  
+   }
+
+   @media (min-width:1440px) {
+
+    .main-container{
+        padding: 0px 100px;
+    }
+       
+
+     /* seccio-descarga star */
+     .seccion-descarga-container{
+        height: 800px;
+    }
+    /* seccion-descarga end */
+   }
+
+   

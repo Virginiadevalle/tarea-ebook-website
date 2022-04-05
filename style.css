@@ -7,14 +7,30 @@
     font-size: 0;
     margin: 20px;
 }
+.main-footer{
+    background-color: #fff;
+    padding: 30px 0 ;
+}
 
 /* header end */
 
 /* main star */
-.main-container{
+.main{
     background-image: url(./img/Ellipse\ superior.png);
     background-repeat: no-repeat;
 }
+
+.main-formulario{
+    position: relative;
+    
+}
+.main-btn{
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+
 
 .main-subtitulo{
     color: var(--primary-color);
@@ -27,8 +43,7 @@
 }
 
 .main-titulo{
-    color: #170F49;
-    text-transform: uppercase;
+    color: var(--secundary-color);
     font-weight: 700;
     font-size: 50px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -41,7 +56,7 @@
     color: #6F6C90;
     padding: 10px;
     margin-top: 11px;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 
 .main-text{
@@ -49,14 +64,20 @@
     margin-bottom: 200px;
 }
 
-.main-logo-img{
-    padding: 15px;
-    margin: 0;
-    margin-bottom: 45px;
-}
 
 /* main end */
  
+/* seccion-etiqueta start */
+.etiqueta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+ }
+ 
+/* seccion-etiqueta end */
+
+
 /* seccion promocion star */
 
  .seccion-promocion-subtitulo::before{
@@ -70,7 +91,7 @@
      font-weight: 700;
  }
  .seccion-promocion-titulo{
-    color: #170F49;
+    color: var(--secundary-color);
     font-weight: 700;
     font-size: 50px;
     margin-top: 27px;
@@ -78,8 +99,9 @@
 
  }
  .seccion-promocion-beneficios{
-     padding: 20px;
+     padding: 20px 50px;
  }
+
 
  .seccion-promocion-card-titulo::before{
      content: '';
@@ -88,16 +110,21 @@
  .seccion-promocion-card-titulo{
      font-size: 18px;
      font-weight: 700;
-     margin-bottom: 12px;
-     color: #170F49;
+     margin: 0;
+     
+     color: var(--secundary-color);
  }
 
  .seccion-promocion-card-descripcion{
+    margin: 0;
+ }
+ .seccion-promocion-descripcion{
      margin: 0;
+     padding: 10px 60px;
  }
 
  .seccion-promocion-formulario{
-     margin-top: 45px ;
+     margin-top: 20px ;
      margin-bottom: 122px;
  }
 
@@ -108,7 +135,7 @@
 .seccion-redes-sociales-titulo{
     font-size: 28px;
     font-weight: 700;
-    color: #170F49;
+    color: var(--secundary-color);
 
 }
 
@@ -125,18 +152,22 @@
 /* seccion-redes-sciales end */
 
 /* seccion recomendaciones start */
+.seccion-recomendaciones{
+    background-color: #f9f8ff;
+}
+
 .seccion-recomendaciones-subtitulo{
     color: var(--primary-color) ;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 14px;
-    margin-top: 190px;
+    padding-top: 160px;
 
 } 
 
 .seccion-recomendaciones-titulo{
-    color:#170F49 ;
+    color:var(--secundary-color);
     font-size: 34px;
     font-weight: 700;
     margin: 0;
@@ -147,12 +178,15 @@
 }
 
 .seccion-recomendaciones-card{
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fff;
 }
 .seccion-recomendaciones-card-titulo{
     font-size: 22px;
     font-weight: 700;
-    color: #170F49;
+    color: var(--secundary-color);
     margin: 9px;
 }
 
@@ -179,7 +213,7 @@
 .seccion-paquetes-ebook-titulo{
     font-size: 34px;
     font-weight: 700;
-    color: #170F49;
+    color: var(--secundary-color);
     margin: 0;
     margin-bottom: 16px;
 }
@@ -196,18 +230,21 @@
 
 .seccion-paquetes-ebook-button{
     margin-top: 56px;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
 }
 /* seccion paquetes ebook end */
 
 /* seccion comentarios start*/
+.seccion-comentarios{
+    background-color: #f9f8ff;
+}
 
 .seccion-comentarios-subtitulo{
     color: var(--primary-color);
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    margin-top: 200px;
+    padding-top: 200px;
     margin-bottom: 14px;
 
 }
@@ -215,18 +252,20 @@
     margin: 0;
     font-size: 34px;
     font-weight: 700;
-    color: #170F49;
+    color: var(--secundary-color);
     margin-bottom: 32px;
 
 }
 
 .seccion-comentarios-card{
-    padding-bottom: 30px;
-    margin-bottom: 48px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #fff;
 }
 .seccion-comentarios-card-titulo{
     margin-top: 30px;
-    color: #170F49;
+    color: var(--secundary-color);
     font-size: 22px;
     font-weight: 700;
 }
@@ -239,7 +278,7 @@
     margin: 0;
     margin-top: 7px;
     margin-bottom: 7px;
-    color: #170F49;
+    color: var(--secundary-color);
     font-size: 18px;
     font-weight: 700;
 }
@@ -256,15 +295,17 @@
 }
 
 .seccion-comentarios-button{
-    margin-bottom: 400px;
+    padding-bottom: 200px;
+    padding-top: 20px;
 }
 
 
 /* seccion comentarios end */
 /* seccion-autor start */
 
-.seccion-autor-info{
-    margin-bottom: 100px;
+.seccion-autor-container{
+    margin-top: 120px;
+    margin-bottom: 160px;
 }
 .seccion-autor-subtitulo{
     color: var(--primary-color);
@@ -275,7 +316,7 @@
 }
 
 .seccion-autor-titulo{
-    color: #170F49;
+    color: var(--secundary-color);
     font-size: 50px;
     font-weight: 700;
     margin: 0;
@@ -301,8 +342,30 @@
 /* seccion descarga start */
  .seccion-descarga-container{
      background-color: var(--primary-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 700px ;
  }
 
+ .seccion-descarga-img{
+    position: absolute;
+    top: -60px;
+    left: 5px;
+
+ }
+ 
+
+ .descarga-formulario{
+    position: relative;
+    
+}
+.descarga-btn{
+    position: absolute;
+    top: 4px;
+    left: 171px;
+}
  .seccion-descarga-subtitulo::before{
     content: '';
  }
@@ -319,7 +382,7 @@
     font-size:34px ;
     font-weight: 700;
     margin-top: 18px;
-    margin-bottom: 40px ;
+    margin-bottom: 20px ;
 }
 
 
@@ -343,19 +406,38 @@
 /* seccion-copyright end */
 
 
+/* seccion-cards start */
+.seccion-cards-container{
+    background-image: url(./img/Ellipse\ inferior.png);
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y: bottom ;
+    
+}
+/* seccion-cards end */
+
 /* seccion-footer start */
 .footer-derechos{
     margin-top: 90px ;
 }
 
-.footer-subcribe{
-    color: #170F49;
+.footer-formulario-email{
+    position: relative;
+    
+}
+.footer-btn{
+    position: absolute;
+    top: 0;
+    left: 210px;
+}
+.footer-subscribe{
+    color: var(--secundary-color);
     font-weight: 700;
     margin-top: 64px;
 }
 
 .footer-container{
-    margin-bottom: 58px;
+    margin-bottom: 20px;
 }
 
 /* seccion-footer end */

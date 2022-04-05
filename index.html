@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="utilidades.css">
+    <link rel="stylesheet" href="mediaquery768.css">
+    <link rel="stylesheet" href="mediaquery1024.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
@@ -24,50 +26,54 @@
         </div>
       </div>
     </header>
-    <main class="main">
-      <div class="main-container">
-        <h4 class="main-subtitulo text-center">cloneables for webflow</h4>
-        <h2 class="main-titulo text-center">
+    <main class="main d-flex justify-content-center ">
+      <div class="main-container text-center ">
+        <h4 class="main-subtitulo ">cloneables for webflow</h4>
+        <h2 class="main-titulo ">
           eBook Landing Page Webflow Cloneable Template
         </h2>
-        <p class="main-descripcion text-center">
+        <p class="main-descripcion ">
           Want to receive a monthly email in your inbox with awesome free
           Webflow cloneables, resources and more? Please submit your email
           below.
         </p>
 
         <div class="main-formulario d-flex d-flex-column justify-content-center align-items-center">
-          <form action="">
+          <form class="main-formulario" action="">
             <input
-              class="main-email  formulariostyle small"
+              class="main-email formulariostyle small "
               type="email"
               name="email"
               id="email"
-              placeholder="Enter your email"
+              placeholder="Enter your email" 
             />
+              <div class="main-button">
+                <button class="main-btn btn little">Subscribe</button>
+              </div>
+           
           </form>
-          <div class="main-button">
-            <button class="main-btn btn little">Subscribe</button>
-          </div>
+          
         </div>
         <div class="main-text text-center">
           <span class="main-notification  "
           >It's <a href="#">100% free</a> and we will never send more than one
           email per month</span>
         </div>
-        <div class="main-footer text-center ">
-          <img class="main-logo-img " src="./img/Logo.png" alt="" />
-        </div>
       </div>
     </main>
-    <section class="seccion-promocion">
-      <div class="seccion-promocion-container">
+    <section class="etiqueta">
+      <div class="etiqueta-logo- text-center ">
+        <img class="etiqueta-logo-img " src="./img/Logo.png" alt="" />
+      </div>
+    </section>
+    <section class="seccion-promocion ">
+      <div class="seccion-promocion-container ">
         <div class="seccion-promocion-texto text-center">
           <h4 class="seccion-promocion-subtitulo ">Download the ebook</h4>
           <h2 class="seccion-promocion-titulo ">
             Download our free Email Marketing eBook
           </h2>
-          <p class="seccion-promocion-descripcion text-justify p-color padding">
+          <p class="seccion-promocion-descripcion text-justify p-color">
             Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere
             vel venenatis eu sit massa volutpat massa rhoncus.
           </p>
@@ -76,7 +82,7 @@
               <h3 class="seccion-promocion-card-titulo">
                 50+ tips from experts in the industry
               </h3>
-              <p class="seccion-promocion-card-descripcion text-justify p-color padding">
+              <p class="seccion-promocion-card-descripcion text-justify p-color ">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit dolor
                 posuere vel venenatis eu sit massa volutpat.
               </p>
@@ -85,14 +91,14 @@
               <h3 class="seccion-promocion-card-titulo">
                 12 chapters explaining email marketing
               </h3>
-              <p class="seccion-promocion-card-descripcion text-justify p-color padding">
+              <p class="seccion-promocion-card-descripcion text-justify p-color ">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit dolor
                 posuere vel venenatis eu sit massa volutpat.
               </p>
             </div>
           </div>
           <div class="seccion-promocion-formulario">
-            <form action="">
+            <form class="main-formulario" action="">
               <input
                 class="seccion-promocion-email formulariostyle small"
                 type="email"
@@ -100,13 +106,13 @@
                 id="email"
                 placeholder="Enter your email"
               />
+              <div class="seccion-promocion-button ">
+                <button class="main-btn btn little">Subscribe</button>
+              </div>
             </form>
-            <div class="seccion-promocion-button ">
-              <button class="seccion-promocion-btn btn little">Subscribe</button>
-            </div>
           </div>
         </div>
-        <div class="seccion-promocion-imagen">
+        <div class="seccion-promocion-imagen text-center">
           <img
             class="seccion-promocion-img"
             src="./img/eBook 1.png"
@@ -139,7 +145,7 @@
         </ul>
       </div>
     </section>
-    <section class="seccion-recomendaciones">
+    <section class="seccion-recomendaciones ">
         <div class="seccion-recomendaciones-container text-center">
             <h4 class="seccion-recomendaciones-subtitulo ">What’s included?</h4>
             <h3 class="seccion-recomendaciones-titulo">See what's inside our Email Marketing eBook</h3>
@@ -171,44 +177,44 @@
               </div>
         </div>
     </section>
-    <section class="seccion-paquetes-ebook">
-        <div class="seccion-paquetes-ebook-container">
-            <div class="seccion-paquetes-ebook-imagen">
-                <img class="seccion-paquetes-ebook-img" src="./img/cartas.png" alt="cartas">
+    <section class="seccion-paquetes-ebook ">
+        <div class="seccion-paquetes-ebook-container text-center">
+            <div class="seccion-paquetes-ebook-imagen ">
+              <img class="seccion-paquetes-ebook-img" src="./img/cartas.png" alt="cartas">
             </div>
             <div class="seccion-paquetes-ebook-contenido text-center">
-                <h4 class="seccion-paquetes-ebook-subtitulo">About the eBook</h4>
-                <h3 class="seccion-paquetes-ebook-titulo">Our eBook includes 100+ pages on email marketing</h3>
+              <h4 class="seccion-paquetes-ebook-subtitulo">About the eBook</h4>
+              <h3 class="seccion-paquetes-ebook-titulo">Our eBook includes 100+ pages on email marketing</h3>
                 <p class="seccion-paquetes-ebook-descripcion text-justify p-color padding">Ut enim ad minim veniam, quis nostrud exercitation ullamco mere laboris nisi ut aliquip ex ea commodo conse.</p>
                 <div class="seccion-paquetes-ebook-info d-flex">
                     <div class="seccion-paquetes-ebook-card">
-                        <div class="seccion-paquetes-ebook-card-imagens">
-                          <img class="seccion-paquetes-ebook-card-img" src="./img/160+.png" alt="160 pages">
-                        </div>
-                        <span class="seccion-paquetes-ebook-tipo">Pages</span>
+                      <div class="seccion-paquetes-ebook-card-imagens">
+                        <img class="seccion-paquetes-ebook-card-img" src="./img/160+.png" alt="160 pages">
+                      </div>
+                      <span class="seccion-paquetes-ebook-tipo">Pages</span>
                     </div>
                     <div class="seccion-paquetes-ebook-card">
                       <div class="seccion-paquetes-ebook-card-imagens">
                         <img class="seccion-paquetes-ebook-card-img" src="./img/36+.png" alt="36 chapters">
                       </div>
-                        <span class="seccion-paquetes-ebook-tipo">Chapters</span>
+                      <span class="seccion-paquetes-ebook-tipo">Chapters</span>
                     </div>
                     <div class="seccion-paquetes-ebook-card">
                       <div class="seccion-paquetes-ebook-card-imagens">
                         <img class="seccion-paquetes-ebook-card-img" src="./img/28+.png" alt="28 Tutorials">
                       </div>
-                        <span class="seccion-paquetes-ebook-tipo">Tutorials</span>
+                      <span class="seccion-paquetes-ebook-tipo">Tutorials</span>
                     </div>
                     <div class="seccion-paquetes-ebook-card">
                       <div class="seccion-paquetes-ebook-card-imagens">
                         <img class="seccion-paquetes-ebook-card-img" src="./img/12+.png" alt="12 Interviews">
                       </div>
-                        <span class="seccion-paquetes-ebook-tipo">Interviews</span>
+                      <span class="seccion-paquetes-ebook-tipo">Interviews</span>
                     </div>
-                </div>
-                <div class="seccion-paquetes-ebook-button">
+                  </div>
+                  <div class="seccion-paquetes-ebook-button">
                     <button class="seccion-paquetes-ebook-btn btn little">Download eBook</button>
-                </div>
+                  </div>
             </div>
         </div>
     </section>
@@ -219,7 +225,7 @@
             <div class="seccion-comentarios-cards">
                 <div class="seccion-comentarios-card">
                     <h3 class="seccion-comentarios-card-titulo">“Such a great eBook to read”</h3>
-                    <p class="seccion-comentarios-card-opinion p-color  padding">Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisol nisi ut aliquip ex ea commodo colmer consequat aute irure sint amet.</p>
+                    <p class="seccion-comentarios-card-opinion p-color  ">Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisol nisi ut aliquip ex ea commodo colmer consequat aute irure sint amet.</p>
 
                     <div  class="seccion-comentarios-card-comentadores d-flex justify-content-center">
                         <div class="seccion-comentarios-card-imagens">
@@ -308,7 +314,7 @@
           <h4 class="seccion-descarga-subtitulo">Download the book</h4>
           <h3 class="seccion-descarga-titulo">Download the eBook to master email marketing</h3>
           <div class="seccion-descarga-formulario">
-            <form action="">
+            <form class="descarga-formulario" action="">
               <input
                 class="seccion-descarga-email formulariostyle small"
                 type="email"
@@ -316,10 +322,10 @@
                 id="email"
                 placeholder="Enter your email"
               />
+              <div class="seccion-descarga-button">
+                <button class="descarga-btn btn small">Download</button>
+              </div>
             </form>
-            <div class="seccion-descarga-button">
-              <button class="seccion-descarga-btn btn little">Download</button>
-            </div>
         </div>
       </div>
     </section>
@@ -333,10 +339,10 @@
     </section>
     <section class="seccion-cards">
       <div class="seccion-cards-container">
-        <div class="seccion-cards-card padding">
+        <div class="seccion-cards-card text-center padding">
           <img class="seccion-cards-img" src="./img/themes.png" alt="themes">
         </div>
-        <div class="seccion-cards-card padding">
+        <div class="seccion-cards-card text-center padding">
           <img class="seccion-cards-img" src="./img/brix.png" alt="brix img">
         </div>
       </div>
@@ -349,9 +355,9 @@
           </div>
           <span class="footer-derechos-autor p-color">Copyright © 2022 BRIX Templates | All Rights Reserved</span>
         </div>
-        <h4 class="footer-subcribe">Subscribe to receive free Webflow cloneables every month.</h4>
         <div class="footer-formulario">
-          <form action="">
+          <h4 class="footer-subscribe">Subscribe to receive free Webflow cloneables every month.</h4>
+          <form class="footer-formulario-email" action="">
             <input
               class="footer-email formulariostyle small"
               type="email"
@@ -359,10 +365,10 @@
               id="email"
               placeholder="Enter your email"
             />
+            <div class="footer-button">
+              <button class="footer-btn btn little">Subscribe</button>
+            </div>
           </form>
-          <div class="footer-button">
-            <button class="footer-btn btn little">Subscribe</button>
-          </div>
         </div>
 
       </div>

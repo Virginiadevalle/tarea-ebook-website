@@ -1,0 +1,269 @@
+
+@media (min-width:768px) {
+    /* header star */
+
+    .header{
+        padding: 0px 40px;
+    }
+    .header-container{
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        
+    }
+    /* header end */
+
+
+    /* secccion-main star */
+
+    .main-container{
+        max-width: 70%;
+    }
+
+    
+    /* seccion-main end */
+
+
+    /* seccion-promocion star */
+
+
+    .seccion-promocion-container{
+        display: flex;
+        justify-content: center;
+    }
+    .seccion-promocion-texto{
+        max-width: 50%;
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .seccion-promocion-imagen{
+        max-width: 50%;
+    }
+
+    .seccion-promocion-titulo{
+        margin-top: 0;
+        font-size: 40px;
+    }
+
+    .seccion-promocion-subtitulo{
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .seccion-promocion-descripcion{
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .seccion-promocion-beneficios{
+        padding: 0;
+    }
+
+    /* .seccion-promocion-container{
+        max-width: 750px;
+    
+    }
+
+    
+
+    .seccion-promocion-subtitulo{
+        margin-top: 0;
+    }
+    
+    .seccion-promocion-img{
+        object-fit: cover;
+        
+    } */
+    /* seccion-promocion end */
+
+    /* seccion-redes-sociales start */
+    .seccion-redes-sociales-imagenes{
+        display: flex;
+        justify-content: center;
+    }
+    /* seccion-redes-sociales end */
+
+
+   
+
+    /* seccion-recomendaciones start */
+    .seccion-recomendaciones-cards{
+       display: flex;
+       justify-content: center;
+      
+    }
+
+
+    .seccion-recomendaciones-card {
+       flex-basis: calc(100% /3);
+        
+    }
+
+    .seccion-recomendaciones-button{
+        padding-bottom: 140px;
+         margin-bottom: 40px ;
+    }
+    /* seccion-recomendaciones end */
+
+
+
+
+    /* seccion-paquetes-ebook start */
+    .seccion-paquetes-ebook{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .seccion-paquetes-ebook-contenido{
+        max-width: 50%;
+        text-align: left;
+        margin: 0;
+    }
+
+    .seccion-paquetes-ebook-button{
+        margin-top: 10px;
+    }
+    .seccion-paquetes-ebook-descripcion{
+        margin: 0;
+    }
+
+    .seccion-paquetes-ebook-container{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+   
+  
+    .seccion-paquetes-ebook-titulo{
+        margin: 0;
+    }
+    
+    
+    /* seccion-paquetes-ebook end */
+
+    /* seccion-comentarios start */
+    .seccion-comentarios-cards{
+        display: flex;
+    }
+
+    .seccion-comentarios-card{
+        flex-basis: calc(100% / 3);
+    }
+    /* seccion-comentarios end */
+
+
+    /* seccion-autor start */
+
+    .seccion-autor-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .seccion-autor-card{
+        display: flex;
+        align-items: center;
+        max-width: 70%;
+        border: 1px solid #edecf1;
+        border-radius: 30px;
+    }
+
+    .seccion-autor-card-imagen{
+        flex-basis: 50%;
+      
+    }
+    .seccion-autor-info{
+        text-align: left;
+        flex-basis: 50%;
+       
+    }
+
+    .seccion-autor-redes-sociales{
+        justify-content: flex-start;
+    }
+
+    /* seccion-autor end */
+
+    /* seccion-descarga start */
+    .seccion-descarga-container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 500px;
+    }
+
+    .descarga-formulario{
+        position: relative;
+        
+    }
+    .descarga-btn{
+        position: absolute;
+        top: 4px;
+        left: 160px;
+    }
+
+    .seccion-descarga-info{
+        text-align: left;
+        max-width: 50%;
+    }
+
+    .seccion-descarga-img{
+        max-width: 50%;
+    }
+    /* seccion-descarga end */
+
+    /* seccion-footer start */
+
+    .footer-formulario{
+        position: relative;
+        
+    }
+    .footer-btn{
+        position: absolute;
+        top: 0;
+        left: 450px;
+    }
+    /* seccion-footer end */
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
